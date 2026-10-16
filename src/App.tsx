@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Games from './components/Games'
 import About from './components/About'
 import Resume from './components/Resume'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <Games />
         <About />
         <Resume />
+        <Contact />
       </main>
       <Footer />
     </div>
