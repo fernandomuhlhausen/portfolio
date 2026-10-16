@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import Reveal from './Reveal'
 
 type SectionProps = {
   id: string
@@ -19,7 +20,7 @@ export default function Section({ id, title, children }: SectionProps) {
       >
         {title}
       </h2>
-      {children}
+      <Reveal>{children}</Reveal>
     </section>
   )
 }

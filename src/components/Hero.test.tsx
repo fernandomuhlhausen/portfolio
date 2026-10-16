@@ -7,7 +7,7 @@ test('renders the name as level-1 heading with tagline', () => {
     screen.getByRole('heading', { level: 1, name: 'Fernando Muhlhausen' }),
   ).toBeInTheDocument()
   expect(
-    screen.getByText('Crio jogos que rodam direto no navegador.'),
+    screen.getByText('Crio software que roda no navegador: jogos, ferramentas e automações.'),
   ).toBeInTheDocument()
 })
 

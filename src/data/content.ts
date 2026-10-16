@@ -1,6 +1,6 @@
 export const RESUME = {
   summary:
-    'Profissional detalhista e organizado, atualmente cursando Desenvolvimento de Software no IFSC. Experiência com ferramentas digitais, processos operacionais e trabalho autônomo — hoje focado em desenvolvimento web e jogos.',
+    'Profissional detalhista e organizado, com experiência em ferramentas digitais, processos operacionais e trabalho autônomo. Hoje foco em desenvolvimento de software — jogos, web e projetos de IA como freelancer.',
   skills: [
     'JavaScript',
     'TypeScript',
@@ -10,19 +10,26 @@ export const RESUME = {
     'PHP',
     'MySQL',
     'Git/GitHub',
+    'Debugging',
+    'Testes de software',
+    'Automação',
     'Excel',
     'Google Workspace',
     'Ferramentas de IA',
   ],
   education: [
-    {
-      institution: 'IFSC — Instituto Federal de Santa Catarina',
-      course: 'Tecnólogo em Desenvolvimento de Software',
-      period: '2023 – 2026',
-    },
     { institution: 'Ensino médio completo', course: '', period: '' },
   ],
   experience: [
+    {
+      role: 'Desenvolvedor Freelancer',
+      company: 'Projetos de software e IA',
+      period: 'Atual',
+      bullets: [
+        'Desenvolvimento sob demanda, com foco em IA e automação',
+        'Entrega ponta a ponta: código, testes e deploy',
+      ],
+    },
     {
       role: 'Supervisor de Restaurante',
       company: 'Mahalo Foods',

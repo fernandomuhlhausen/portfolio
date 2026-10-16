@@ -5,14 +5,14 @@ export default function About() {
     <Section id="sobre" title="Sobre">
       <div className="space-y-4 text-ink-muted">
         <p className="leading-relaxed">
-          Sou o Fernando, de Florianópolis. Estudo Desenvolvimento de Software
-          no IFSC (2023–2026) e construo jogos que rodam no navegador — a
-          maioria com JavaScript, Three.js e Vite.
+          Sou o Fernando, de Florianópolis. Construo software que roda no
+          navegador — de jogos em Three.js a ferramentas e automações.
         </p>
         <p className="leading-relaxed">
-          Gosto de pegar uma ideia e levar até algo jogável de ponta a ponta:
-          menu, controles, HUD, áudio, deploy. Curioso e rápido para aprender
-          ferramentas novas; disponível para trabalho remoto.
+          Gosto de levar uma ideia até algo funcionando de ponta a ponta:
+          interface, lógica, testes e deploy. Hoje faço freela de
+          desenvolvimento, incluindo projetos de IA. Curioso e rápido para
+          aprender ferramentas novas; disponível para trabalho remoto.
         </p>
       </div>
     </Section>

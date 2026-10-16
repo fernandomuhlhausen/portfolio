@@ -7,13 +7,14 @@ export default function Hero() {
       />
       <div className="relative mx-auto w-full max-w-5xl px-5 py-24 sm:py-32">
         <p className="mb-4 text-sm font-medium tracking-[0.2em] text-accent uppercase">
-          Desenvolvedor de Jogos · Estudante de Dev no IFSC
+          Desenvolvedor de Software · Jogos, Web e IA
         </p>
         <h1 className="font-display text-4xl font-bold tracking-tight text-ink sm:text-6xl">
           Fernando Muhlhausen
         </h1>
         <p className="mt-4 max-w-xl text-lg text-ink-muted">
-          Crio jogos que rodam direto no navegador.
+          Crio software que roda no navegador: jogos, ferramentas e
+          automações.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <a
