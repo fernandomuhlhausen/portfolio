@@ -13,7 +13,7 @@ export const GAMES: Game[] = [
     title: 'TurboClash',
     description:
       'Futebol arcade com carros em arena 3D: turbo, saltos e corrida pelas paredes. Partidas de 2 minutos, de 1x1 a 5x5.',
-    tech: ['JavaScript', 'Canvas 3D'],
+    tech: ['Three.js', 'JavaScript'],
     url: 'https://turbo-clash-2.vercel.app/',
     cover: '/games/turbo-clash.png',
   },
